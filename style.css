@@ -159,19 +159,18 @@ section{
     align-self:center;
     text-align:left;
 }
-.section__text p{
-  
-
-}
 .section__text__p1{
     text-align:left;
     font-weight: 700;
     font-size: 38px;
+    margin:0;
     
 }
 .section__text__p2{
     font-size: 16px;
-    margin-bottom:1rem;
+    margin-bottom:50px;
+    margin-top:50px
+
     
 }
 .section__text__p6{
@@ -260,7 +259,7 @@ display: flex;
 .details-container{
     height:432.45px ;
     width: 385px;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     flex: 1;
     background: white;
     border-radius: 12px;
@@ -294,13 +293,14 @@ display: flex;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .article-container{
     display:flex;
     text-align: left;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
     justify-content: space-around;
 }
 article{
@@ -323,9 +323,9 @@ article .icon{
     background: white;
 }
 .project-img{
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%
+    /* border-radius: 2rem; */
+    width: 100%;
+    height:255px;
 }
 .project-title{
     margin:1rem;
