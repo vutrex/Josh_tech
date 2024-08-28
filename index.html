@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet/scss" href="style2.scss" type="text/css">
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><img src="./assets/logo.png"></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Home</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recomendation">Recomendation</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"><img src="./assets/logo.png"></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+    
+        <div class="section__text">
+            <p class="section__text__p1">I’m Rayan Adlrdard <span style="color: rgba(255, 180, 0, 1)">Front-end</span>  Developer
+            </p>  
+            
+            <p class="section__text__p2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.
+
+             </p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='./#contacts'">Hire me &rarr;</button>
+            </div>
+        </div>
+        <div class="section-pic-container">
+            <img  class="bb"
+             src="./assets/undraw_proud_coder_re_exuy 1.png" alt="my profile pic"/>
+
+        </div>
+    </section>
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+        <p class="section__text__p6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo omnis voluptatum quibusdam numquam sint similique asperiores eveniet, dignissimos tempore fugiat nam nulla eum quidem delectus. Earum debitis cupiditate nisi aliquid.</p>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/proj3.png"
+                alt="project img"
+                class="project-img"/>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/vutrex/Food-delivery-app'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://food-delivery-app-vyy5.vercel.app/'">
+                        Live Demo
+                    </button>
+
+                </div>
+            </div>
+                </div>
+                <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/proj2.png"
+                alt="project img"
+                class="project-img"/>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/vutrex/Framer_Motion-Metaverusus'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://metaverse-madness-mu.vercel.app/'">
+                        Live Demo
+                    </button>
+
+                </div>
+            </div>
+                </div>
+                <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/proj1.png"
+                alt="project img"
+                class="project-img"/>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/vutrex/CoinHub'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://coin-hub-dun.vercel.app/'">
+                        Live Demo
+                    </button>
+
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="projects">
+      <div class="experience-details-container">
+          <div class="about-container">
+              <div class="details-container color-container">
+          <div class="article-container">
+              <img src="./assets/proj3.png"
+              alt="project img"
+              class="project-img"/>
+              <h2 class="experience-sub-title project-title">Project One</h2>
+              <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/vutrex/Food-delivery-app'">
+                      Github
+                  </button>
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://food-delivery-app-vyy5.vercel.app/'">
+                      Live Demo
+                  </button>
+
+              </div>
+          </div>
+              </div>
+              <div class="details-container color-container">
+          <div class="article-container">
+              <img src="./assets/proj2.png"
+              alt="project img"
+              class="project-img"/>
+              <h2 class="experience-sub-title project-title">Project Two</h2>
+              <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/vutrex/Framer_Motion-Metaverusus'">
+                      Github
+                  </button>
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://metaverse-madness-mu.vercel.app/'">
+                      Live Demo
+                  </button>
+
+              </div>
+          </div>
+              </div>
+              <div class="details-container color-container">
+          <div class="article-container">
+              <img src="./assets/proj1.png"
+              alt="project img"
+              class="project-img"/>
+              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/vutrex/CoinHub'">
+                      Github
+                  </button>
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://coin-hub-dun.vercel.app/'">
+                      Live Demo
+                  </button>
+
+              </div>
+          </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="SelectionRecommendation block content-3">
+    <div class="center">
+      <div class="wrapper">
+        <div class="inner">
+          <div class="card">
+            <img src="https://colorlib.com/preview/theme/seogo/img/case_study/1.png">
+            <div class="content">
+              <h1>Product Design</h1>
+              <h3>UI/UX, Design</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://colorlib.com/preview/theme/seogo/img/case_study/2.png">
+            <div class="content">
+              <h1>Custom Website</h1>
+              <h3>UI/UX, Design</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://colorlib.com/preview/theme/seogo/img/case_study/3.png">
+            <div class="content">
+              <h1>Digital Marketing</h1>
+              <h3>UI/UX, Design</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://colorlib.com/preview/theme/seogo/img/case_study/1.png">
+            <div class="content">
+              <h1>Digital Marketing</h1>
+              <h3>UI/UX, Design</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://colorlib.com/preview/theme/seogo/img/case_study/2.png">
+            <div class="content">
+              <h1>Digital Marketing</h1>
+              <h3>UI/UX, Design</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://colorlib.com/preview/theme/seogo/img/case_study/3.png">
+            <div class="content">
+              <h1>Digital Marketing</h1>
+              <h3>UI/UX, Design</h3>
+            </div>
+          </div>
+                <div class="card">
+            <img src="https://colorlib.com/preview/theme/seogo/img/case_study/1.png">
+            <div class="content">
+              <h1>Digital Marketing</h1>
+              <h3>UI/UX, Design</h3>
+            </div>
+          </div>
+                <div class="card">
+            <img src="https://colorlib.com/preview/theme/seogo/img/case_study/2.png">
+            <div class="content">
+              <h1>Digital Marketing</h1>
+              <h3>UI/UX, Design</h3>
+            </div>
+          </div>
+                <div class="card">
+            <img src="https://colorlib.com/preview/theme/seogo/img/case_study/3.png">
+            <div class="content">
+              <h1>Digital Marketing</h1>
+              <h3>UI/UX, Design</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="map">
+        <button class="active first"></button>
+        <button class="second"></button>
+        <button class="third"></button>
+      </div>
+    </div>
+  </section>
+        <section class="contact">
+            <div class="contact_us_green">
+                <div class="responsive-container-block big-container">
+                  <div class="responsive-container-block container">
+                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-7 wk-ipadp-10 line" id="i69b-2">
+                      <form class="form-box">
+                        <div class="container-block form-wrapper">
+                          <div class="head-text-box">
+                            <p class="text-blk contactus-head">
+                              Contact us
+                            </p>
+                            <p class="text-blk contactus-subhead">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al iqua. Ut enim
+                            </p>
+                          </div>
+                          <div class="responsive-container-block">
+                            <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-6">
+                              <p class="text-blk input-title">
+                                FIRST NAME
+                              </p>
+                              <input class="input" id="ijowk-6" name="FirstName">
+                            </div>
+                            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                              <p class="text-blk input-title">
+                                LAST NAME
+                              </p>
+                              <input class="input" id="indfi-4" name="Last Name">
+                            </div>
+                            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                              <p class="text-blk input-title">
+                                EMAIL
+                              </p>
+                              <input class="input" id="ipmgh-6" name="Email">
+                            </div>
+                            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                              <p class="text-blk input-title">
+                                PHONE NUMBER
+                              </p>
+                              <input class="input" id="imgis-5" name="PhoneNumber">
+                            </div>
+                            <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-6">
+                              <p class="text-blk input-title">
+                                WHAT DO YOU HAVE IN MIND
+                              </p>
+                              <textarea class="textinput" id="i5vyy-6" placeholder="Please enter query..."></textarea>
+                            </div>
+                          </div>
+                          <div class="btn-wrapper">
+                            <button class="submit-btn">
+                              Submit
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-5 wk-ipadp-10" id="ifgi">
+                      <div class="container-box">
+                        <div class="text-content">
+                          <p class="text-blk contactus-head">
+                            Contact us
+                          </p>
+                          <p class="text-blk contactus-subhead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al iqua. Ut enim
+                          </p>
+                        </div>
+                        <div class="workik-contact-bigbox">
+                          <div class="workik-contact-box">
+                            <div class="phone text-box">
+                              <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET21.jpg">
+                              <p class="contact-text">
+                                +1258 3258 5679
+                              </p>
+                            </div>
+                            <div class="address text-box">
+                              <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET22.jpg">
+                              <p class="contact-text">
+                                hello@workik.com
+                              </p>
+                            </div>
+                            <div class="mail text-box">
+                              <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET23.jpg">
+                              <p class="contact-text">
+                                102 street, y cross 485656
+                              </p>
+                            </div>
+                          </div>
+                          <div class="social-media-links">
+                            <a href="">
+                              <img class="social-svg" id="is9ym" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg">
+                            </a>
+                            <a href="">
+                              <img class="social-svg" id="i706n" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg">
+                            </a>
+                            <a href="">
+                              <img class="social-svg" id="ib9ve" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg">
+                            </a>
+                            <a href="">
+                              <img class="social-svg" id="ie9fx" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+</div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
